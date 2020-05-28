@@ -22,6 +22,10 @@
 
         var math = e.target[0].value
 
+        if(math == 'random number'){
+            last.innerText = Math.random()
+        }
+
         if(math == '1+1'){
             last.innerText = '2'
         }
